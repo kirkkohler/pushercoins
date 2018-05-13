@@ -1,0 +1,31 @@
+{
+  "name": "pushercoins",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://kirkkohler.github.io/pushercoins",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "ajv-keywords": "^3.2.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "deep-extend": "^0.5.1",
+    "express": "^4.16.3",
+    "moment": "^2.22.1",
+    "pusher": "^2.0.0",
+    "pusher-js": "^4.2.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
